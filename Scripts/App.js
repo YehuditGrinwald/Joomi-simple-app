@@ -4,6 +4,7 @@
     //    validPhone();
     //    ValidateEmail();
     //}
+	smoothScroll.init();
 
         function validPhone() //Function for validating phone
         {
