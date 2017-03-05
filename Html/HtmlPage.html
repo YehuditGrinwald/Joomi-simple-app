@@ -11,7 +11,6 @@
 </head>
 <body>
     <header>
-        <center><a href="#" rel="1" onclick="smoothScroll(document.getElementById('paragraph2'))"> <img src="../Media/arrow.png" /> </a></center>
         <br />  <h3>////title /////</h3>
     </header>
 
@@ -21,7 +20,7 @@
         <form name="detailes" id="detailes" class="details">
             <!--onsubmit="return validForm()"-->
             <p>נשמח לראותכם אצלנו</p>
-            <input type="text" id="name" value="שם מלא" onclick="document.detailes.email.value=''" style="width:190px ; height:30px; font-weight:lighter " /><br /><br />
+            <input type="text" id="name" value="שם מלא" onclick="document.detailes.email.value=''" style="width:190px ; height:30px; font-weight:lighter; """ /><br /><br />
             <input type="text" id="company" value="חברה" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" /><br /><br />
             <!--טלפון:<input type="tel" pattern="[0-9]{10}" name="tel" title="Phone Number?!?!" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" required />-->
             <input type="tel" name="Phone" id="phone" value="טלפון" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" /><br /><br />
@@ -30,22 +29,24 @@
             <center>  <input type="submit" value="שלח" id="submit" style="background-color:yellowgreen; width:70px ; height:25px;font-style:normal;font-size:medium;color:white" /></center>
 
         </form>
-
-        <!--<center>  <input type="image" src="../Media/arrow.png" alt="ArrowButton" action="scrollWin(0, 50)"> </center>-->
-
     </div>
+    <!--<center>  <input type="image" src="../Media/arrow.png" alt="ArrowButton" action="scrollWin(0, 50)"> </center>-->
+    <!--<button type="button" onclick="smoothScroll(document.getElementById('paragraph2'))"><img src="../Media/arrow.png" /></button>-->
+    <!--<center><button onclick="scrollWin(0, 50)"><img src="../Media/arrow.png" /></button></center>--> <!--<center>-->
+    <!--<center><button onclick="scrollWin(0, 50)"><img src="../Media/arrow.png" /></button></center>-->
+    <!--<center><img src="../Media/arrow.png" onclick="scrollWin()" /></center>-->
+    <center><a href="#" rel="1" onclick="smoothScroll(document.getElementById('paragraph2'))"> <img src="../Media/arrow.png" /> </a></center>
 
     <div class="p2" id="paragraph2">
         <center>
-            
-            <!--<button type="button" onclick="smoothScroll(document.getElementById('paragraph2'))"><img src="../Media/arrow.png" /></button>-->
+            <h3>
+                בוקר מקצועי בו נעסוק  בחידושים התפתחויות מגמות
+                ואספקטים שונים בטיפול בערוצי המכירה בעולםה-B2B
+            </h3>
+
+
         </center>
 
-        <!--<center><button onclick="scrollWin(0, 50)"><img src="../Media/arrow.png" /></button></center>-->
-        <!--<center>-->
-        <!--<center><button onclick="scrollWin(0, 50)"><img src="../Media/arrow.png" /></button></center>-->
-        <!--<center><img src="../Media/arrow.png" onclick="scrollWin()" /></center>-->
-        <h3>paragrap2</h3>
     </div>
 
     <footer>

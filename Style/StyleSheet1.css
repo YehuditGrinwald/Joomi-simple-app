@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Gill Sans MT';
     direction: rtl;
     background-color: lightgray;
     margin: 0;
@@ -14,7 +14,7 @@ body {
 
 .content {
     background-color: #00ff90;
-    background-image: url('../Media/header-pic.jpg');
+     background-image: url('../Media/header-pic.jpg');
     /*background-size:1250%,727%;*/
     width: 1250px;
     height:727px;
