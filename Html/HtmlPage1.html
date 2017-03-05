@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet1.css" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <br />  <h3>////title /////</h3>
+    </header>
+
+    <div class="content"  onsubmit="return validPhone(), ValidateEmail() ">
+
+            <!--onmouseleave="validPhone()"-->
+            <form name="detailes" id="detailes" class="details">
+                <!--onsubmit="return validForm()"-->
+                <p>נשמח לראותכם אצלנו</p>
+                שם: <input type="text" id="name" style="width:190px ; height:30px" required /><br /><br />
+                חברה: <input type="text" id="company" style="width:190px ; height:30px" required /><br /><br />
+                <!--טלפון:<input type="tel" pattern="[0-9]{10}" name="tel" title="Phone Number?!?!" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" required />-->
+                טלפון<input type="tel" name="Phone" id="phone"  onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" required /><br /><br />
+                תפקיד: <input type="text" id="place" style="width:190px ; height:30px" required /><br /><br />
+                דוא"ל: <input type="email" id="email" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" required /><br /><br />
+              <center>  <input type="submit"  value="שלח" id="submit" style="background-color:yellowgreen; width:70px ; height:25px;font-style:normal;font-size:medium;color:white" /></center>
+            </form>
+        </div>
+    
+    <div class="paragraph2">
+
+        <center><button onclick="" behviir><img src="IMG/arrow.png" /></button></center> 
+        <h3>paragrap2</h3>
+    </div>
+
+    <footer>
+        <a href="http://www.joomi.co.il/"> <img src="IMG/joomi.png" typeof="url" style="float:left;height:20%;padding:10px"></a>
+        <a href="https://www.google.co.il"> <img src="IMG/now.png" typeof="url" style="float:right ; height:20% ;padding:10px">  </a>
+        <center><a href="https://www.signature-it.com/"> <img src="IMG/signature.png" typeof="url" style="height:20%;padding:10px;"></a></center>
+    </footer>
+    <script src="Scripts/jquery-1.10.2.min.js"></script>
+    <script>
+        //function validForm() {
+        //    validPhone();
+        //    ValidateEmail();
+        //}
+
+            function validPhone() //Function for validating phone
+            {
+                var PhoneNumber = document.getElementById('phone').value;
+                var Phoneno = /^\d{10}$/;
+                if ((Phoneno.test(PhoneNumber)))
+                { return true; }
+                else
+                {
+                    alert("Not a valid Phone Number");
+                    return false;
+                }
+            }
+
+            function ValidateEmail()//Function for validating email
+            {
+                var ImailAddress = document.getElementById('email').value;
+                var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+                if (mailformat.test(ImailAddress))
+                {
+                    alert("You have valid email address!");
+
+                    return true;
+                }
+                else
+                {
+                    alert("You have entered an invalid email address!");
+                    return false;
+                }
+            }
+
+    </script>
+</body>
+
+</html>

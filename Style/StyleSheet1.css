@@ -1,0 +1,43 @@
+﻿header {
+    width: 100%;
+    height: 70px;
+    background-color: #ff0000;
+}
+
+body {
+    font-family: Arial;
+    direction: rtl;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.content {
+    background-color: #00ff90;
+    background-image: url('IMG/header-pic.jpg');
+    width: 1000px;
+    height: 500px;
+    margin: 0;
+}
+
+.details {
+    float: right;
+    margin: 0;
+}
+
+.btnarrow {
+  
+}
+
+.paragraph2{
+  width: 100%;
+    height: 200px;
+    margin: 0;
+   background-color:lightgray;
+   margin:0;
+}
+footer{
+   background-color:#808080;
+   height:22%;
+   width:100%;
+   margin:0;
+}
