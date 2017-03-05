@@ -34,6 +34,10 @@ function ValidateEmail()//Function for validating email
         return false;
     }
 }
+
+
+
+
 function scroll_to(divelementId) {
     if (elementId.scrollTop < elementId.scrollHeight - elementId.clientHeight)
         elementId.scrollTop += 10; // move down
