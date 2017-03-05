@@ -27,7 +27,7 @@
                 <!--טלפון:<input type="tel" pattern="[0-9]{10}" name="tel" title="Phone Number?!?!" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" required />-->
                 <input type="tel" name="Phone" id="phone" value="טלפון" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" /><br /><br />
                 <input type="text" id="place" value="תפקיד" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" /><br /><br />
-                <input type="text" id="email" value="דואל" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" /><br /><br />
+                <input type="text" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required id="email" value="דואל" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" /><br /><br />
                 <center>  <input type="submit" value="שלח" id="submit" style="background-color:yellowgreen; width:70px ; height:25px;font-style:normal;font-size:medium;color:white" /></center>
 
             </form>
