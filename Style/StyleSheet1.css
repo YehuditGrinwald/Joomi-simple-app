@@ -50,37 +50,30 @@ body {
     position:center;
 
 }
+
 .inputs {
- 
      width:210px ; 
     height:30px;
 }
-.btnarrow {
-  
-}
 
 .paragraph2{
-  width: 100%;
-  height: 400px;
-  margin: 0;
-   background-color:lightgray;
-   background-repeat:no-repeat;
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    background-color:lightgray;
+    background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
 	padding-top:30px;
 }
 
-
 .section-scroll
 {
-	    margin: 0 auto;
+    margin: 0 auto;
     text-align: center;
 	
 }
-.section-scroll a
-{
-	display: block;
-}
+.section-scroll a{display: block;}
 
 .sub-title h2{
 	text-align: center;
@@ -111,7 +104,6 @@ body {
     /* left: 65%; */
     transform: translate(-65%, 50%);
     /* overflow: auto; */
-    /*  */
     /* margin: 0; */
 }
 
@@ -124,30 +116,24 @@ body {
 }
 
 	
-.span_lacture_large {
-    font-size:medium;
-}
-.span1{
-   font-size: 0.5em;
-}
+.span_lacture_large { font-size:medium;}
 
-.span2{
-   font-size: 0.4em;
-}
+.span1{font-size: 0.5em;}
 
-.location-item
-{
+.span2{font-size: 0.4em;}
+
+.location-item {
 	text-align: center;
 	 margin-top: 10px;
 }
 
 .location-item div {
     display:inline;
-     font-size: 1em;
+    font-size: 1em;
     text-align: center;
     margin: 0;
-   top: 50%;
-   left:50%;
+    top: 50%;
+    left:50%;
     transform: translate(-50%, 50%);
     overflow:auto;
     display:table;
@@ -156,7 +142,7 @@ body {
 .location-itme span {
     display:inline;
     font-weight:bold;
-     font-size: 0.5em;
+    font-size: 0.5em;
 }
 
 footer{
@@ -166,22 +152,13 @@ footer{
    margin:0;
 }
 
-footer img
-{
-  padding:10px
-}
+footer img{padding:10px}
 
-footer a:first-child
-{
-	float:right;
-}
+footer a:first-child{float:right;}
 
-footer a:last-child
-{
-	float:left;
-}
+footer a:last-child{float:left;}
 
-
+/*נישמח לראותכם אצלנו*/
 .p{
 	text-align:center;
     font-weight:bold;
@@ -195,19 +172,12 @@ footer a:last-child
     display:table;
 }
 
-
-.clear {
- clear:both;
-}
-
+.clear {clear:both;}
 
 /*small scren*/
 @media (max-width: 100px) {
 	
-.header-img
-{
-	    max-height: 100px;
-}
+.header-img{ max-height: 100px;}
 	
 .sub-title h2{
 	text-align: center;
@@ -216,8 +186,7 @@ footer a:last-child
     margin: auto;
 }
 
-.lectures-wrapper
-{
+.lectures-wrapper{
 	width: 100%;
 	text-align: center;
 	top: 0px;
@@ -241,15 +210,17 @@ footer a:last-child
     /*  */
     /* margin: 0; */
 }
+
 .lecture {
-     text-align: center;
+    text-align: center;
     display:table-cell;
     float:right;
     height: 75px;
 	display: table;
-	    margin: 10px;
+	margin: 10px;
     width: 25%;
 }
+
 /*.lecture span{
     display:inlin-block;
      font-size: 1em;
@@ -263,31 +234,23 @@ footer a:last-child
     display:table;
 }*/
 
-footer img
-	{	height: 42px;
-}
+footer img{	height: 42px;}
 
 }
+
 /*wide scren*/
-@media (min-width:150px) and (max-width: 2000px)
-{
-	.sub-title h2{
-		width: 40%;
-	}
+@media (min-width:150px) and (max-width: 2000px){
 	
-	.lectures {
-      width: 55%;
-	}
+	.sub-title h2{ width: 40%;}
+	
+	.lectures { width: 55%;}
+	
 	.lecture{
 	 margin: 15px;
      width: 105px;
 	}
 	
-	footer a:nth-child(2n){
-	margin-right: 35%;
-}
-	footer img{
-  height:50px;
-}
-
+	footer a:nth-child(2n){margin-right: 35%;}
+	
+	footer img{height:50px;}
 }
