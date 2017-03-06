@@ -48,11 +48,17 @@ body {
 }
 
 .details {
-    height: 380px;
+    width:220px ; 
+    height:380px;
     float: right;
     margin: 0;
     position:center;
-    width:160px;
+
+}
+.inputs {
+ 
+     width:210px ; 
+    height:30px;
 }
 .btnarrow {
   
