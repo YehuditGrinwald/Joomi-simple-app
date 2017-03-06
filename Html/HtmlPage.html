@@ -6,8 +6,9 @@
     <link href="../Style/StyleSheet1.css" rel="stylesheet" />
 
     <script src="../Scripts/jquery-1.10.2.min.js"></script>
-    <script src="../Scripts/App.js"></script>
 	<script src="../Scripts/smooth-scroll.js"></script>
+	    <script src="../Scripts/App.js"></script>
+
 </head>
 <body>
     <header>
@@ -22,13 +23,13 @@
             <form name="detailes" id="detailes" class="details">
                 <!--onsubmit="return validForm()"-->
                 <p style="text-align:center; font-size:large;font-weight:bolder">נשמח לראותכם אצלנו</p>
-                <input class="inputs" type="text" id="name" placeholder="שם מלא" onclick="document.detailes.name.value=''" required /><br /><br />
-                <input class="inputs" type="text" id="company" placeholder="חברה" onclick="document.detailes.company.value = ''" required /><br /><br />
+                <input class="inputs" type="text" name="name" id="name" placeholder="שם מלא" onclick="document.detailes.name.value=''" required /><br /><br />
+                <input class="inputs" type="text" name="company" id="company" placeholder="חברה" onclick="document.detailes.company.value = ''" required /><br /><br />
                 <!--טלפון:<input type="tel" pattern="[0-9]{10}" name="tel" title="Phone Number?!?!" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" required />-->
-                <input class="inputs" type="tel" name="Phone" id="phone" placeholder="טלפון" onclick="document.detailes.phone.value = ''" required /><br /><br />
-                <input class="inputs" type="text" id="place" placeholder="תפקיד" onclick="document.detailes.place.value = ''" required /><br /><br />
-                <input class="inputs" type="email" id="email" placeholder="שם מלא" onclick="document.detailes.email.value=''" required /><br /><br />
-                <center>  <input type="submit" value="שלח" id="submit" style="background-color:yellowgreen; width:100px ; height:35px;font-weight:bold;font-size:large;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" /></center>
+                <input class="inputs" type="tel" name="phone" id="phone" placeholder="טלפון" maxlength="10" pattern="\d*" title='עד 10 ספרות למספר טלפון' onclick="document.detailes.phone.value = ''" required /><br /><br />
+                <input class="inputs" type="text" name="role" id="place" placeholder="תפקיד" onclick="document.detailes.place.value = ''" required /><br /><br />
+                <input class="inputs" type="email" name="email" id="email" placeholder="אימייל" onclick="document.detailes.email.value=''" required /><br /><br />
+                <center>  <input type="submit" value="שלח"  id="submit" style="background-color:yellowgreen; width:100px ; height:35px;font-weight:bold;font-size:large;color:white;" /></center>
                 <!--pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"-->
             </form>
         </div>
@@ -48,7 +49,7 @@
         </div>
 
 
-        <!--<div class="lectures-wrapper">-->
+      <div class="lectures-wrapper">
         <div class="lectures">
             <div class="lecture">
                 <span>9:00</span>
@@ -82,7 +83,8 @@
                 <span class="span2">רועי עצמון מנכ"ל Signatur IT</span>
             </div>
         </div>
-        <!--</div>-->
+      </div>
+		
         <div class="location-item div">
            <!--div><span class="location-itme span" style="font-weight:bold;font-size:small ;display:inline-block">07.03.17|09:00-12:00|</span></div>-->
             <!--<div>-->

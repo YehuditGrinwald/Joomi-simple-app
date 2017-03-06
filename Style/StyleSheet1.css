@@ -1,6 +1,6 @@
 ﻿header {
     width: 100%;
-    height: 100px;
+    height: 60px;
     background-color: black;
     margin:0;
 }
@@ -80,7 +80,7 @@ body {
 
 .sub-title h2{
 	text-align: center;
-	width: 30%;
+	width: 40%;
     text-align: center;
     margin: auto;
 }
@@ -92,35 +92,38 @@ body {
 
 .lectures-wrapper
 {
-	/*width: 100%;
+	width: 100%;
 	text-align: center;
     margin: 0;
     overflow:auto;
-    display:table;*/
+    display:table;
 }
 
 .lectures {
-   
-	width: 50%;
-     text-align:center;
-    font-weight:bold;
+    width: 55%;
+    /* text-align: center; */
+    font-weight: bold;
     font-size: 2em;
-    top: 50%;
-    left: 65%;
+	margin-top: 10px;
+    /* top: 50%; */
+    /* left: 65%; */
     transform: translate(-65%, 50%);
-    overflow:auto;
-    display:table;
-    margin:0;
+    /* overflow: auto; */
+    /*  */
+    /* margin: 0; */
 }
 
 .lecture {
-    text-align: center;
+     text-align: center;
     display:table-cell;
     float:right;
     margin: 15px;
     width: 105px;
     height: 75px;
-    }
+	display: table;
+}
+
+	
 .span_lacture_large {
     font-size:medium;
 }
@@ -130,6 +133,12 @@ body {
 
 .span2{
    font-size: 0.4em;
+}
+
+.location-item
+{
+	text-align: center;
+	 margin-top: 10px;
 }
 
 .location-item div {

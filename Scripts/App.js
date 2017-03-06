@@ -2,6 +2,26 @@
 
     
 	smoothScroll.init();
+$(document).ready(function() {
+		$('#detailes').on('submit', function() {
+			
+		alert()
+  var $inputs = $(this).find(':input'),
+      isValid = true;
+
+  $inputs.each(function() {
+    if ($(this).val() == '') {
+      isValid = false;
+      $(this).addClass('error-control');
+    } else {
+      $(this).removeClass('error-control');
+    }
+  });
+
+  return isValid  
+});
+});
+
 
         function validPhone() //Function for validating phone
         {
