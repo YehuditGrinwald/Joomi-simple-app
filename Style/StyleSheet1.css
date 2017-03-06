@@ -16,11 +16,8 @@ body {
 	height: 100%;
 }
 
-
-
 .header-img {
      background-image: url('../Media/header-pic.jpg');
-    /*background-size:1250%,727%;*/
     width: 100%;
     max-height:500px;
     margin: 0;
@@ -28,14 +25,13 @@ body {
 	background-size:cover;
 	background-position:top;
     margin: 0;
-    min-height: 266px;
+    min-height: 450px;
     height: auto;
     z-index: 1;
     position: absolute;
 }
 
 .content {
-    /*background-size:1250%,727%;*/
     z-index: 2;
     position: relative;
     width: 100%;
@@ -71,11 +67,19 @@ body {
    background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
+	padding-top:30px;
 }
 
 
-.arrow {
-    margin-top: 65px;
+.section-scroll
+{
+	    margin: 0 auto;
+    text-align: center;
+	
+}
+.section-scroll a
+{
+	display: block;
 }
 
 .sub-title h2{
@@ -165,6 +169,28 @@ footer{
    width:100%;
    margin:0;
 }
+
+footer img
+{
+  height:50px;
+  padding:10px
+}
+
+footer a:first-child
+{
+	float:right;
+}
+
+footer a:last-child
+{
+	float:left;
+}
+
+footer a:nth-child(2n)
+{
+	margin-right: 35%
+}
+
 .p{
 	text-align:center;
     font-weight:bold;
@@ -181,4 +207,68 @@ footer{
 
 .clear {
  clear:both;
+}
+
+@media (max-width: 100px) {
+	
+.header-img
+{
+	    max-height: 100px;
+}
+	
+.sub-title h2{
+	text-align: center;
+	width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.lectures-wrapper
+{
+	width: 100%;
+	text-align: center;
+	top: 0px;
+    left: 50%;
+    transform: translate(50%, 0px);
+    margin: 0;
+    overflow:auto;
+    display:table;
+}
+
+.lectures {
+    width: 95%;
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 2em;
+	margin-top: 10px;
+    /* top: 50%; */
+    /* left: 65%; */
+    transform: translate(-65%, 50%);
+    /* overflow: auto; */
+    /*  */
+    /* margin: 0; */
+}
+.lecture {
+     text-align: center;
+    display:table-cell;
+    float:right;
+    margin: 15px;
+    width: 20%;
+    height: 75px;
+	display: table;
+}
+/*.lecture span{
+    display:inlin-block;
+     font-size: 1em;
+    text-align: center;
+    margin: 0;
+	width:15%;
+	top:15px;
+   left:50%;
+    transform: translate(-50%, 50%);
+    overflow:auto;
+    display:table;
+}*/
+
+
 }
