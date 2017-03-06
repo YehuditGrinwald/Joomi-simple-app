@@ -1,9 +1,8 @@
 ﻿<!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="he">
 <head>
 
     <meta charset="utf-8" />
-    <title></title>
     <link href="../Style/StyleSheet1.css" rel="stylesheet" />
 
     <script src="../Scripts/jquery-1.10.2.min.js"></script>
@@ -12,74 +11,86 @@
 </head>
 <body>
     <header>
-        <br />  <h3>////title /////</h3>
+        <h3>אפקטיבי בבוקר</</h3>
     </header>
 
         <div class="header-img"/>
         <div class="content" onsubmit="return validPhone(), ValidateEmail() ">
             <div class="form-wrapper">
             <!--onmouseleave="validPhone()"-->
-            <form name="detailes" id="detailes" class="details">
+            <form name="detailes" id="detailes" class="details" style="text-align:center">
                 <!--onsubmit="return validForm()"-->
-                <p>נשמח לראותכם אצלנו</p>
-                <input type="text" id="name" value="שם מלא" onclick="document.detailes.email.value=''" style="width:190px ; height:30px; font-weight:lighter; " "" /><br /><br />
-                <input type="text" id="company" value="חברה" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" /><br /><br />
+                <p style="text-align:center; font-size:large;font-weight:bolder">נשמח לראותכם אצלנו</p>
+                <input type="text" id="name" value="שם מלא" onclick="document.detailes.email.value=''" style="width:210px ; height:30px; font-weight:lighter; " /><br /><br />
+                <input type="text" id="company" value="חברה" onclick="document.detailes.email.value=''" style="width:210px ; height:30px" /><br /><br />
                 <!--טלפון:<input type="tel" pattern="[0-9]{10}" name="tel" title="Phone Number?!?!" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" required />-->
-                <input type="tel" name="Phone" id="phone" value="טלפון" onclick="document.detailes.phone.value = ''" style="width:190px ; height:30px" /><br /><br />
-                <input type="text" id="place" value="תפקיד" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" /><br /><br />
-                <input type="text" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required id="email" value="דואל" onclick="document.detailes.email.value=''" style="width:190px ; height:30px" /><br /><br />
-                <center>  <input type="submit" value="שלח" id="submit" style="background-color:yellowgreen; width:70px ; height:25px;font-style:normal;font-size:medium;color:white" /></center>
+                <input type="tel" name="Phone" id="phone" value="טלפון" onclick="document.detailes.phone.value = ''" style="width:210px ; height:30px" /><br /><br />
+                <input type="text" id="place" value="תפקיד" onclick="document.detailes.email.value=''" style="width:210px ; height:30px" /><br /><br />
+                <input type="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required id="email" value="דואל" onclick="document.detailes.email.value=''" style="width:210px ; height:30px" /><br /><br />
+                <center>  <input type="submit" value="שלח" id="submit" style="background-color:yellowgreen; width:100px ; height:35px;font-weight:bold;font-size:large;color:white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif" /></center>
 
             </form>
                 </div>
         </div>
         <div class="clear"/>
-
-        <!--<center>  <input type="image" src="../Media/arrow.png" alt="ArrowButton" action="scrollWin(0, 50)"> </center>-->
-        <!--<button type="button" onclick="smoothScroll(document.getElementById('paragraph2'))"><img src="../Media/arrow.png" /></button>-->
-        <!--<center><button onclick="scrollWin(0, 50)"><img src="../Media/arrow.png" /></button></center>--> <!--<center>-->
-        <!--<center><button onclick="scrollWin(0, 50)"><img src="../Media/arrow.png" /></button></center>-->
-        <!--<center><img src="../Media/arrow.png" onclick="scrollWin()" /></center>-->
         <center class="arrow"><a data-scroll href="#paragraph2" rel="1" onclick="smoothScroll(document.getElementById('paragraph2'))"> <img src="../Media/arrow.png" /> </a></center>
 
-        <div class="p2" id="paragraph2">
+        <div class="paragraph2" id="paragraph2">
            
-                <h1 class="tit">
-                    בוקר מקצועי בו נעסוק  בחידושים התפתחויות מגמות
-                    ואספקטים שונים בטיפול בערוצי המכירה בעולםה-B2B
-                </h1>
 
-        
+            <div class="sub-title">
+                <h2 >
+                    בוקר מקצועי בו נעסוק  בחידושים, התפתחויות, מגמות
+                    ואספקטים שונים בטיפול בערוצי המכירה בעולם ה-B2B.
+                </h2>
+            </div>
 
-            <div class="lectures">
-                <div class="lecture">
-                    <span>9:00</span>
-                    <br />
-                    <span class="span2">התכנסות וכיבוד קל</span>
-                </div>
-                <div class="lecture">
-                    <span>9:30</span>
-                    <br />
-                    <span class="span2">דברי פתיחה</span>
-                </div>
-                <div class="lecture">
-                    <span>10:15</span>
-                    <br />
-                    <span class="span2">הרצאה ראשונה שחר פאר Joomi</span>
-                </div>
-                <div class="lecture">
-                    <span>11:30</span>
-                    <br />
-                    <span class="span2">הרצאה שניה איילת קומר Now Branding</span>
-                </div>
-                <div class="lecture">
-                    <span>9:30</span>
-                    <br />
-                    <span class="span2">הרצאה שלישית רועי עצמון מנכ"ל Signatur IT</span>
-                </div>
-                </div>
 
-        </div>
+            <!--<div class="lectures-wrapper">-->
+                <div class="lectures">
+                    <div class="lecture">
+                        <span>9:00</span>
+                        <br />
+                        <span class="span2">התכנסות וכיבוד קל</span>
+                    </div>
+                    <div class="lecture">
+                        <span>9:30</span>
+                        <br />
+                        <span class="span2">דברי פתיחה</span>
+                    </div>
+                    <div class="lecture">
+                        <span>10:15</span>
+                        <br />
+                        <span style="font-size:medium" >הרצאה ראשונה</span>
+                        <br /><!--class="span_acture_large"-->
+                        <span class="span2"> שחר פאר Joomi</span>
+                    </div>
+                    <div class="lecture">
+                        <span>11:30</span>
+                        <br />
+                        <span style="font-size:medium">הרצאה שניה </span>
+                        <br />
+                        <span class="span2">איילת קומר Now Branding</span>
+                    </div>
+                    <div class="lecture">
+                        <span>9:30</span>
+                        <br />
+                        <span style="font-size:medium">הרצאה שלישית</span>
+                        <br />
+                        <span class="span2">רועי עצמון מנכ"ל Signatur IT</span>
+                    </div>
+                </div>
+            <!--</div>-->
+         
+            </div>
+    <div class="location-item div">
+        <div><span class="location-itme span" style="font-weight:bold;font-size:small ;display:inline-block">07.03.17|09:00-12:00|</span></div>
+        <div><span class="location-itme span"  style="font-weight:bold ;font-size:large;display:inline-block">במשרדי </span><span>NOW BRANDING|</span></div>
+        <div><span class="location-itme span" style="font-size:large">כיכר רבין [ליד בנק הפועלים,קריית טיבעון</span></div>
+    </div>
+
+   
+
 
         <footer>
             <a href="http://www.joomi.co.il/"> <img src="../Media/joomi.png" typeof="url" style="float:left;height:20%;padding:10px"></a>
