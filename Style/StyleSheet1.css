@@ -84,7 +84,6 @@ body {
 
 .sub-title h2{
 	text-align: center;
-	width: 40%;
     text-align: center;
     margin: auto;
 }
@@ -104,7 +103,6 @@ body {
 }
 
 .lectures {
-    width: 55%;
     /* text-align: center; */
     font-weight: bold;
     font-size: 2em;
@@ -121,8 +119,6 @@ body {
      text-align: center;
     display:table-cell;
     float:right;
-    margin: 15px;
-    width: 105px;
     height: 75px;
 	display: table;
 }
@@ -172,7 +168,6 @@ footer{
 
 footer img
 {
-  height:50px;
   padding:10px
 }
 
@@ -186,10 +181,6 @@ footer a:last-child
 	float:left;
 }
 
-footer a:nth-child(2n)
-{
-	margin-right: 35%
-}
 
 .p{
 	text-align:center;
@@ -209,6 +200,8 @@ footer a:nth-child(2n)
  clear:both;
 }
 
+
+/*small scren*/
 @media (max-width: 100px) {
 	
 .header-img
@@ -252,10 +245,10 @@ footer a:nth-child(2n)
      text-align: center;
     display:table-cell;
     float:right;
-    margin: 15px;
-    width: 20%;
     height: 75px;
 	display: table;
+	    margin: 10px;
+    width: 25%;
 }
 /*.lecture span{
     display:inlin-block;
@@ -270,5 +263,31 @@ footer a:nth-child(2n)
     display:table;
 }*/
 
+footer img
+	{	height: 42px;
+}
+
+}
+/*wide scren*/
+@media (min-width:150px) and (max-width: 2000px)
+{
+	.sub-title h2{
+		width: 40%;
+	}
+	
+	.lectures {
+      width: 55%;
+	}
+	.lecture{
+	 margin: 15px;
+     width: 105px;
+	}
+	
+	footer a:nth-child(2n){
+	margin-right: 35%;
+}
+	footer img{
+  height:50px;
+}
 
 }
