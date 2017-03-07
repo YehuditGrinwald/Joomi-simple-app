@@ -52,8 +52,9 @@ body {
 .inputs {
     width:210px ; 
     height:30px;
+    background-color: transparent;
+	box-shadow: none;
 }
-
 
 .paragraph2{
   width: 100%;
@@ -95,25 +96,19 @@ body {
 }
 
 .lecture {
-     text-align: center;
+    text-align: center;
     display:table-cell;
     float:right;
     height: 75px;
 	display: table;
 }
 
-.span_lacture_large { font-size:medium;}
-
-.span1{ font-size: 0.5em;}
-
-.span2{ font-size: 0.4em;}
-
-.location-item{
+.location-item-text{
 	text-align: center;
 	margin-top: 45px;
 }
 
-.location-item div {
+.location-item-text div {
     display:inline;
     font-size: 1em;
     text-align: center;
@@ -123,12 +118,6 @@ body {
     transform: translate(-50%, 50%);
     overflow:auto;
     display:table;
-}
-
-.location-itme span {
-    display:inline;
-    font-weight:bold;
-    font-size: 0.5em;
 }
 
 footer{
@@ -158,22 +147,13 @@ footer a:last-child{float:left;}
 
 .clear {clear:both;}
 
-.bold{
-	font-weight:bold;
-}
+.bold{font-weight:bold;}
 
-.font-small{
-	font-size:small;
-}
-.font-medium{
-	font-size:medium;
-}
-.font-large{
-	font-size:large;
-}
+.font-small{font-size:small;}
 
+.font-medium{font-size:medium;}
 
-
+.font-large{font-size:large;}
 
 /*small scren*/
 @media (max-width: 100px) {
