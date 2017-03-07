@@ -48,39 +48,30 @@ body {
     float: right;
     margin: 0;
     position:center;
-
 }
 .inputs {
- 
-     width:210px ; 
+    width:210px ; 
     height:30px;
 }
-.btnarrow {
-  
-}
+
 
 .paragraph2{
   width: 100%;
   height: 400px;
   margin: 0;
-   background-color:lightgray;
-   background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center;
-	padding-top:30px;
+  background-color:lightgray;
+  background-repeat:no-repeat;
+  background-size:contain;
+  background-position:center;
+  padding-top:30px;
 }
 
-
-.section-scroll
-{
-	    margin: 0 auto;
+.section-scroll{
+	margin: 0 auto;
     text-align: center;
-	
 }
-.section-scroll a
-{
-	display: block;
-}
+
+.section-scroll a{display: block;}
 
 .sub-title h2{
 	text-align: center;
@@ -88,13 +79,7 @@ body {
     margin: auto;
 }
 
-/*.sub-title{
-	width: 100%;
-	text-align: center;}
-}*/
-
-.lectures-wrapper
-{
+.lectures-wrapper{
 	width: 100%;
 	text-align: center;
     margin: 0;
@@ -103,16 +88,10 @@ body {
 }
 
 .lectures {
-    /* text-align: center; */
     font-weight: bold;
     font-size: 2em;
 	margin-top: 10px;
-    /* top: 50%; */
-    /* left: 65%; */
     transform: translate(-65%, 50%);
-    /* overflow: auto; */
-    /*  */
-    /* margin: 0; */
 }
 
 .lecture {
@@ -123,64 +102,55 @@ body {
 	display: table;
 }
 
-	
-.span_lacture_large {
-    font-size:medium;
-}
-.span1{
-   font-size: 0.5em;
-}
 
-.span2{
-   font-size: 0.4em;
-}
-
-.location-item
-{
+.location-item{
 	text-align: center;
-	 margin-top: 10px;
+	margin-top: 45px;
 }
 
 .location-item div {
     display:inline;
-     font-size: 1em;
+    font-size: 1em;
     text-align: center;
     margin: 0;
-   top: 50%;
-   left:50%;
+    top: 50%;
+    left:50%;
     transform: translate(-50%, 50%);
     overflow:auto;
     display:table;
 }
-
-.location-itme span {
-    display:inline;
-    font-weight:bold;
-     font-size: 0.5em;
+.location-itme span{
+    display:inline-block;
+    font-size: 0.5em;
 }
+
+.location-itme span:first-child{
+	font-weight:bold;
+	font-size:small;
+}
+.location-itme span:nth-child(2n) {
+	font-weight:bold ;font-size:large;
+	}
+	
+.location-itme span:nth-child(3n) {
+     font-weight:bold ;
+	 font-size:large;
+	}
+	
+.location-itme span:last-child {font-size:large}
 
 footer{
    background-color:#ffffff;
-   height:22%;
+   height:60px;
    width:100%;
    margin:0;
 }
 
-footer img
-{
-  padding:10px
-}
+footer img{padding:10px; }
 
-footer a:first-child
-{
-	float:right;
-}
+footer a:first-child{float:right;}
 
-footer a:last-child
-{
-	float:left;
-}
-
+footer a:last-child{float:left;}
 
 .p{
 	text-align:center;
@@ -190,24 +160,17 @@ footer a:last-child
     top: 50%;
     left: 50%;
     transform: translate(-50%, 50%);
-    /*-ms-transform: translate(-50%, -50%);*/
     overflow:auto;
     display:table;
 }
 
-
-.clear {
- clear:both;
-}
+.clear {clear:both;}
 
 
 /*small scren*/
 @media (max-width: 100px) {
 	
-.header-img
-{
-	    max-height: 100px;
-}
+.header-img{max-height: 100px;}
 	
 .sub-title h2{
 	text-align: center;
@@ -216,8 +179,7 @@ footer a:last-child
     margin: auto;
 }
 
-.lectures-wrapper
-{
+.lectures-wrapper{
 	width: 100%;
 	text-align: center;
 	top: 0px;
@@ -230,26 +192,22 @@ footer a:last-child
 
 .lectures {
     width: 95%;
-    /* text-align: center; */
     font-weight: bold;
     font-size: 2em;
 	margin-top: 10px;
-    /* top: 50%; */
-    /* left: 65%; */
     transform: translate(-65%, 50%);
-    /* overflow: auto; */
-    /*  */
-    /* margin: 0; */
 }
+
 .lecture {
-     text-align: center;
+    text-align: center;
     display:table-cell;
     float:right;
     height: 75px;
 	display: table;
-	    margin: 10px;
+    margin: 10px;
     width: 25%;
 }
+
 /*.lecture span{
     display:inlin-block;
      font-size: 1em;
@@ -263,31 +221,21 @@ footer a:last-child
     display:table;
 }*/
 
-footer img
-	{	height: 42px;
-}
+footer img{	height: 42px;}}
 
-}
 /*wide scren*/
 @media (min-width:150px) and (max-width: 2000px)
 {
-	.sub-title h2{
-		width: 40%;
-	}
+	.sub-title h2{width: 40%;}
 	
-	.lectures {
-      width: 55%;
-	}
+	.lectures { width: 55%;}
+	
 	.lecture{
 	 margin: 15px;
      width: 105px;
 	}
 	
-	footer a:nth-child(2n){
-	margin-right: 35%;
-}
-	footer img{
-  height:50px;
-}
+	footer a:nth-child(2n){margin-right: 35%;}
+	footer img{/*margin-right: -15%;*/}
 
 }
