@@ -184,19 +184,6 @@ footer a:last-child{float:left;}
     width: 25%;
 }
 
-/*.lecture span{
-    display:inlin-block;
-     font-size: 1em;
-    text-align: center;
-    margin: 0;
-	width:15%;
-	top:15px;
-   left:50%;
-    transform: translate(-50%, 50%);
-    overflow:auto;
-    display:table;
-}*/
-
 footer img{	height: 42px;}
 
 }
@@ -214,6 +201,4 @@ footer img{	height: 42px;}
 	}
 	
 	footer a:nth-child(2n){margin-right: 35%;}
-	footer img{/*margin-right: -15%;*/}
-
 }

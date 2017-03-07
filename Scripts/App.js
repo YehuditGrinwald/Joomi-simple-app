@@ -3,11 +3,9 @@
 
 //validation inputs
 $(document).ready(function() {
-		$('#detailes').on('submit', function() {
-			
-		alert()
-  var $inputs = $(this).find(':input'),
-      isValid = true;
+	$('#detailes').on('submit', function() {
+	var $inputs = $(this).find(':input'),
+    isValid = true;
 
   $inputs.each(function() {
     if ($(this).val() == '') {
