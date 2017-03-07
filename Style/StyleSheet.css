@@ -135,18 +135,6 @@ footer a:first-child{float:right;}
 
 footer a:last-child{float:left;}
 
-.p{
-	text-align:center;
-    font-weight:bold;
-    font-size: 2em;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    overflow:auto;
-    display:table;
-}
-
 .clear {clear:both;}
 
 .bold{font-weight:bold;}
